@@ -1,0 +1,48 @@
+body{
+background-color: rgb(144, 198, 243);
+
+}
+
+.container{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(229, 236, 241);
+    border-radius: 10px;
+    transition: all, .5s;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 5px 5px rgb(89, 161, 255);
+}
+.elementos{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img img{
+    border-radius: 10px;
+    width: 230px;
+}
+
+.elementos h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+    font-size: 13px;
+    text-align:center ;
+    padding-top: 13px;
+}
+
+.elementos p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
